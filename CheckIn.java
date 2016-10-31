@@ -1,3 +1,14 @@
+/*Names: Brian Cabantug, Huy Le
+ *Project No.: Project 10 Part 1
+ *Due Date: November 3, 2016
+ *Professor: Ray Ahmadnia
+ *
+ *Description: The program launches an applet that has text fields for name, address and phone number.
+ *The user inputs the information in the text field and presses an add button to add the information
+ *to a text area at the bottom of the applet. It updates the information each time the button is pressed and 
+ *clears the text fields for more input.
+ */
+
 import javax.swing.*;
 import javax.swing.event.*;
 import java.awt.*;
@@ -78,9 +89,5 @@ public class CheckIn extends Applet implements ActionListener{
 		txtPhone.setText(" ");
 		//replaces the cursor in the name field
 		txtName.requestFocus();
-		
-		
-		
 	}
-	
 }
